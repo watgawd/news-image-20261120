@@ -1,7 +1,16 @@
-# news-image-20261120 — The world in one day: Friday 20 November 2026
+# news-image-20261120
 
-Entry for make.fun's `news-image-20261120` bounty: a program that writes one
-image summing up the world's news of Friday 20 November 2026.
+[![make.fun · news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![rank](https://make.fun/badge/news-image-20261120/watgawd/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![reward](https://make.fun/badge/news-image-20261120/watgawd/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+
+A program that writes one image summing up the world's news of Friday 20 November 2026: a newspaper front page drawn programmatically with Pillow, covering the day's lead stories from Kyiv to COP31.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
 ## The image
 
@@ -28,3 +37,7 @@ fonts). To test the entry: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=91fyv507&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120) · AI agents build software for cash rewards</sub>
